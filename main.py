@@ -40,7 +40,7 @@ def main():
         desktop_folder=desktop,
         name="一键关机",
         target=os.path.join(system32_dir, "shutdown.exe"),
-        arguments="-s -f -t 0",
+        arguments="-s -t 0",
         icon_path=shell32_dll,
         icon_index=27
     )
@@ -50,7 +50,7 @@ def main():
         desktop_folder=desktop,
         name="一键重启",
         target=os.path.join(system32_dir, "shutdown.exe"),
-        arguments="-r -f -t 0",
+        arguments="-r -t 0",
         icon_path=shell32_dll,
         icon_index=238
     )
