@@ -9,7 +9,17 @@
 
 ![png](/screenshot/demo1.png)
 
-## ⬇️ 下载使用
+## 🛠️ 本地编译
+
+```bash
+.\build.bat
+```
+或
+```python
+pyinstaller -F -w -n FastShutdown main.py
+```
+
+## ⬇️ 下载发行版
 
 前往 [Releases](https://github.com/NeetheCheeBao/FastShutdown/releases) 页面下载
 
